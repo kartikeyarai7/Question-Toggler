@@ -1,0 +1,54 @@
+body {
+  background-color: aliceblue;
+}
+h1 {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  color: goldenrod;
+  font-family: "Lobster", cursive;
+  font-weight: 200;
+}
+
+div {
+  background-color: white;
+  width: 40%;
+  margin: 30px auto;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.4);
+}
+
+i {
+  float: right;
+  margin-right: 10px;
+  color: goldenrod;
+}
+
+i:hover {
+  transform: rotate(360deg);
+  transition: all 0.5s;
+}
+
+.c1,
+.c2,
+.c3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+
+.vis {
+  display: none;
+  animation: fadein 2s;
+}
+
+@keyframes fadein {
+  from {
+    display: block;
+  }
+  to {
+    display: none;
+  }
+}
